@@ -1,0 +1,116 @@
+@media  (max-width:1024px) {
+
+  /* about section */
+  
+}
+
+@media (max-width: 991px) {
+  /* custom classes */
+  .text-content{
+    width: 100%;
+  }
+
+  /* navbar brand */
+  .navigation-wrap .navbar-brand img{
+    height: 100px;
+  }
+  .navigation-wrap{
+    text-align: center;
+    background-color: white;
+  }
+  .navigation-wrap .nav-link{
+    line-height: 20px;
+  }
+  /* banner top */
+  .top-banner{
+    padding: 200px 0 50px !important;
+  }
+  /* carsousel Design */
+  .carousel-caption p{
+    padding: 0;
+  }
+  .carousel-item{
+    margin-top: 50px !important;
+ 
+  }
+  /* newsletter */
+   .newsletter{
+     width: 75%;
+   } 
+   input.form-control {
+    margin-top: 15px;
+} 
+   .newsletter .main-btn{
+     width: 100%;
+     margin-top: 16px;
+   }
+   .wrapper .testimoinal-section .carousel-item {
+   
+    padding: 180px 30px !important;
+  
+}
+
+}
+
+@media (max-width: 767px){
+  /* custom css */
+  h1{
+    font-size: 30px !important;
+  }
+  h2{
+    font-size: 25px !important;
+    line-height: 25px !important;
+  }
+  .top-banner{
+    padding: 200px 0 100px !important;
+  }
+  /* story section */
+  .story-section{
+    height: auto;
+    padding: 30px 0;
+  }
+
+  /* carousel design */
+
+  .carousel-item {
+    margin-top: 162px !important;
+    padding: 180px 30px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+  /*  newsletter*/
+  .newsletter{
+    width: 75%;
+
+  }
+  .newsletter .main-btn{
+    width: 100%;
+    margin-top: 16px;
+  }
+  .story-section {
+    height: 100%; 
+}
+  /* footer link*/ 
+.footer .footer-link,
+.footer a{
+  padding: 0 10px;
+}
+
+
+}
+@media (max-width: 338px){
+  /* carsousel Design */
+  .carousel-item {
+    margin-top: 162px !important;
+    padding: 180px 30px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+.story-section {
+  height: 100%;
+}
+}
